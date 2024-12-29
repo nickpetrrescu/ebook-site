@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBooks by [Your Name]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 10px;
+            background: #eef2ff;
+        }
+        .hero h2 {
+            font-size: 2em;
+            margin: 0;
+        }
+        .hero p {
+            margin: 15px 0 25px;
+        }
+        .hero button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background: #2575fc;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .ebooks {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .ebook {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+            width: 300px;
+        }
+        .ebook img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .ebook h3 {
+            margin: 15px 0 10px;
+        }
+        .ebook p {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .ebook button {
+            padding: 10px 15px;
+            color: white;
+            background: #6a11cb;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .about, .contact {
+            padding: 30px 10px;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>[Your Name]'s eBooks</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#ebooks">eBooks</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Discover Inspiring Stories and Transformative Ideas</h2>
+        <p>Explore a range of eBooks designed to spark your imagination and broaden your perspective.</p>
+        <button>Explore eBooks</button>
+    </section>
+
+    <section id="ebooks" class="ebooks">
+        <div class="ebook">
+            <img src="/mnt/data/DALL·E 2024-12-22 15.49.35 - A realistic 3D-rendered book cover standing upright on a clean surface, featuring the design of 'The Eternal Dance of Life' with a cosmic, ethereal th.webp" alt="The Eternal Dance of Life">
+            <h3>The Eternal Dance of Life</h3>
+            <p>Discover the profound journey through cosmic cycles and transcendence with this inspiring eBook.</p>
+            <button onclick="window.location.href='https://buy.stripe.com/dR6bMr1ot0823Je8ww'">Buy Now</button>
+            <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+            <stripe-buy-button
+                buy-button-id="buy_btn_1QYrfNLNR7qqzUYxH4imI4Sk"
+                publishable-key="pk_live_51QYqguLNR7qqzUYxwAoP64ipya79w3BhMyTHLjqi0m2rA9l0EpTufoY6rdX41v8OeGP4E0E3eOWJQdbaxSYg4cGH00qC9h13vJ">
+            </stripe-buy-button>
+        </div>
+        <div class="ebook">
+            <img src="/mnt/data/DALL·E 2024-12-22 15.53.10 - A realistic 3D-rendered book cover standing upright on a clean surface, featuring the design of 'The Rarest Commodity is Leadership without Ego' with .webp" alt="The Rarest Commodity is Leadership without Ego">
+            <h3>The Rarest Commodity is Leadership without Ego</h3>
+            <p>Explore the art of leadership without ego and build impactful, respectful relationships through this insightful eBook.</p>
+            <button onclick="window.location.href='https://buy.stripe.com/9AQ2bR8QV3ke3Je9AB'">Buy Now</button>
+            <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+            <stripe-buy-button
+                buy-button-id="buy_btn_1QYrkQLNR7qqzUYxWMijQAc7"
+                publishable-key="pk_live_51QYqguLNR7qqzUYxwAoP64ipya79w3BhMyTHLjqi0m2rA9l0EpTufoY6rdX41v8OeGP4E0E3eOWJQdbaxSYg4cGH00qC9h13vJ">
+            </stripe-buy-button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About the Author</h2>
+        <p>[Your Name] is a passionate writer dedicated to sharing unique perspectives and transformative ideas through their eBooks. Join the journey and explore stories that inspire and resonate.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Have questions or want to learn more? Get in touch at <strong>[your.email@example.com]</strong></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
